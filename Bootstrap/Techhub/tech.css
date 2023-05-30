@@ -1,0 +1,52 @@
+*{
+  font-family: "montserrat";
+}
+ .award{
+  margin-top: 150px;
+ }
+ .image{
+  width: 50px;
+
+ }
+ .card{
+  border:none !important;
+ }
+ .previous-next{
+  align-items: center;
+  margin-right: 118px !important;
+ }
+
+.texty{
+  /* position: absolute; */
+  width: 540px;
+  /* top: -400px;
+  left: 600px; */
+}
+.bg{
+  background-image: url(https://res.cloudinary.com/oluwaloni/image/upload/v1662981153/Group_205.png);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+.bg .img2{
+  /* height: 600px !important; */
+  
+  margin-top: -86px;
+}
+ @media (max-width: 768px){
+  .award{
+    margin-top: 50px;
+   }
+  .title{
+    font-size: 11px;
+  }
+ 
+  .bg .img2{
+    display: none;
+ }
+ .backkk{
+  margin: 0 !important;
+  padding: 0 !important;
+ }
+}
